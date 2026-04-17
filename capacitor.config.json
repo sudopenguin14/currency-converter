@@ -1,0 +1,7 @@
+{
+  "appId": "com.sudopenguin14.currency-converter",
+  "appName": "Currency Converter",
+  "webDir": ".",
+  "bundledWebRuntime": false
+}
+

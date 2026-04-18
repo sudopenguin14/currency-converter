@@ -36,3 +36,8 @@ jobs:
           cd android
           ./gradlew clean
 
+      - name: Update SDK Versions
+        run: |
+          sed -i 's/targetSdkVersion = [0-9]*/targetSdkVersion = 34/' android/variables.gradle
+          sed -i 's/compileSdkVersion = [0-9]*/compileSdkVersion = 34/' android/variables.gradle
+
